@@ -1,7 +1,8 @@
 import PostAuthor from "./PostAuthor";
 import TimeAgo from "./TimeAgo";
 import ReactionButtons from "./ReactionButtons";
-
+//Structure for what each post looks like when rendered to the page
+//post is passed down through props in PostList
 const PostsExcerpt = ({ post }) => {
     return (
         <article>
